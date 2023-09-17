@@ -4,7 +4,7 @@
 
 
 ### Introduction: 
-Traffic accidents continue to be a pressing concern globally, with their frequency on the rise. Unfortunately, existing studies have often been hindered by limited datasets and a lack of comprehensive information on accident causes and investigations, making it challenging to effectively address this issue. To tackle this problem, we propose a model designed to classify the severity of accidents.
+Traffic accidents continue to be a pressing concern globally, with their frequency increasing. Unfortunately, limited datasets and a lack of comprehensive information on accident causes and investigations have often hindered existing studies, making it challenging to address this issue effectively. To tackle this problem, we propose a model designed to classify the severity of accidents.
 
 
 
@@ -14,7 +14,7 @@ Our model aims to achieve the following: **Accident Severity Classification**. T
 
 
 ### Attribute Information:
-The dataset contains a total of 47 variables/attributes and approximately 2.8 million records. Following is the distrubtion of variables:
+The dataset contains 47 variables/attributes and approximately 2.8 million records. Following is the distribution of variables:
 - 29 String Variables
 - 15 Numerical Variables
 - 3 Time Stamp Variables
@@ -25,7 +25,7 @@ The dataset contains a total of 47 variables/attributes and approximately 2.8 mi
 |No| Column Name           | Data Type  | Description                                                 |
 |--|-----------------------|------------|-------------------------------------------------------------|
 | 1| ID                    | String     | Unique Identifier of Accident Record                        |
-| 2| Severity              | Integer    | Seerity of Accident                                         |
+| 2| Severity              | Integer    | Severity of Accident                                         |
 | 3| Start Time             | Time Stamp | Start Time of Accident                                      |
 | 4| End Time              | Time Stamp | End Time of Accident                                        |
 | 5| Start Lat             | Float      | Latitude of start point in GPS coordinates                  |
@@ -45,15 +45,15 @@ The dataset contains a total of 47 variables/attributes and approximately 2.8 mi
 |19| Timezone              | String     | Timezone based on the location of the accident              |
 |20| Airport Code          | String     | Airport based weather station (closest one)                 |
 |22| Weather Timestamp     | Time Stamp | Timestamp of weather observation record                     |
-|22| Temperature (F)       | Float      | Temperature in Farenheit                                    |
-|23| Wind Chill (F)        | Float      | Wind Chill in Farenheit)                                    |
+|22| Temperature (F)       | Float      | Temperature in Fahrenheit                                    |
+|23| Wind Chill (F)        | Float      | Wind Chill in Fahrenheit)                                    |
 |24| Humidity (%)          | Integer    | Humidity in percentage                                      |
 |25| Pressure (in)         | Float      | Air Pressure in inches                                      |
 |26| Visibility (mi)       | Float      | Visibility in miles                                         |
 |27| Wind Direction        | String     | Wind Direction                                              |
 |28| Wind Speed (mph)      | Float      | Wind Speed in miles per hour                                |
 |29| Precipitation (in)    | Float      | Precipitation amount in inches if any                       |
-|30| Weather Condition     | String     | Weather condition (rain, snow, thunderstorm, fog, etc)      |
+|30| Weather Condition     | String     | Weather condition (rain, snow, thunderstorm, fog, etc.)      |
 |31| Amenity               | String     | Presence of Amenity in a nearby location                    |
 |32| Bump                  | String     | Presence of speed bump in a nearby location                 |
 |33| Crossing              | String     | Presence of a crossing in a nearby location                 |
@@ -77,7 +77,7 @@ The dataset contains a total of 47 variables/attributes and approximately 2.8 mi
 ### Challenges Addressed:
 Our model addresses several challenges in the realm of traffic accident analysis:
 
-1. **Limited Data**: Many previous studies relied on small-scale datasets, limiting their effectiveness in providing a comprehensive understanding of accidents.
+1. **Limited Data**: Many previous studies relied on small-scale datasets, limiting their effectiveness in comprehensively understanding accidents.
 2. **Rising Accident Rates**: Despite ongoing research efforts, the number of accidents continues to increase, posing a significant concern.
 3. **Data Accessibility**: Most accident causes and investigations are not publicly available, making it challenging for government entities and the public to access critical information.
 4. **Lack of Precision**: Without precise information that includes the accident area, cause, contributing factors, and associated injuries, identifying causative components of injuries remains theoretical.
@@ -85,4 +85,4 @@ Our model addresses several challenges in the realm of traffic accident analysis
 
 
 ### Model Documentation:
-Detailed documentation for our accident severity classification model, including final report and .ipynb file can be found within this repository.
+Detailed documentation for our accident severity classification model, including the final report and .py file, can be found within this repository.
